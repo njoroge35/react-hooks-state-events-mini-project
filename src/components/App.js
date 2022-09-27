@@ -6,7 +6,7 @@ import { CATEGORIES, TASKS } from "../data";
 
 function App() {
   const [task, setTask] = useState(TASKS)
-  const [categories, ] = useState(CATEGORIES)
+  const [categories,] = useState(CATEGORIES)
   const [selectedCategoryButton, setSelectedCategoryButton] = useState('All')
   
   
